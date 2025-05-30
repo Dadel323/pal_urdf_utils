@@ -19,7 +19,7 @@
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
 
   <!-- INCLUDES -->
-  <xacro:include filename="$(find pal_urdf_utils)/camera/openni.gazebo.xacro" />
+  <xacro:include filename="$(find pal_urdf_utils)/urdf/camera/openni.gazebo.xacro" />
   <xacro:include filename="${camera_extrinsic_calibration_dir}/camera_extrinsic_calibration.urdf.xacro" />
 
   <!-- MACRO DEFINITION-->
