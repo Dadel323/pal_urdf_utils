@@ -2,8 +2,8 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.1.0 (2025-06-04)
+------------------
 * Fix path for ft_sensor
 * Fix camera gazebo
 * Add cameras for talos
