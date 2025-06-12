@@ -2,6 +2,11 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fix ydlidar params
+* Contributors: andreacapodacqua
+
 2.1.0 (2025-06-04)
 ------------------
 * Fix path for ft_sensor
