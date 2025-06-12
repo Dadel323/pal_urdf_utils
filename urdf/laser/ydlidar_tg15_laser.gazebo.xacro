@@ -35,11 +35,11 @@
           <noise>
             <type>gaussian</type>
             <mean>0.0</mean>
-            <stddev>0.06</stddev>
+            <stddev>0.01</stddev>
           </noise>
         </ray>
 
-        <plugin name="bytes_laserscan" filename="libgazebo_ros_ray_sensor.so">
+        <plugin name="${name}" filename="libgazebo_ros_ray_sensor.so">
             <ros>
                 <remapping>~/out:=${ros_topic}</remapping>
             </ros>
