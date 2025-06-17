@@ -2,6 +2,11 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* support namespaces
+* Contributors: antoniobrandi
+
 2.1.1 (2025-06-12)
 ------------------
 * fix ydlidar params
