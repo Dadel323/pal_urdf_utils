@@ -2,8 +2,8 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.2.1 (2025-06-18)
+------------------
 * Switch to gpu_ray due to an issue with the omni_base detecting its own collision boxes
 * Contributors: thomaspeyrucain
 
