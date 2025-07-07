@@ -2,8 +2,8 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.2.3 (2025-07-07)
+------------------
 * fix collision tg30
 * fix error not visualize laser model in rviz
 * Contributors: andreacapodacqua
