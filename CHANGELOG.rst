@@ -2,8 +2,8 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.2.4 (2025-07-23)
+------------------
 * Add pi utils urdf
 * Contributors: Aina Irisarri
 
