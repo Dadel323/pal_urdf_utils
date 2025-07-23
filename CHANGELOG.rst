@@ -2,6 +2,11 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add pi utils urdf
+* Contributors: Aina Irisarri
+
 2.2.3 (2025-07-07)
 ------------------
 * fix collision tg30
