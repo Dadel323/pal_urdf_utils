@@ -2,6 +2,11 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update realsense_t265.urdf.xacro
+* Contributors: antoniobrandi
+
 2.3.0 (2025-08-27)
 ------------------
 * update mesh
