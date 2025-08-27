@@ -19,7 +19,7 @@
 
   <xacro:include filename="$(find pal_urdf_utils)/urdf/deg_to_rad.urdf.xacro" />
   
-  <xacro:macro name="realsense_d435_rgbd_camera_gazebo" params="name" >
+  <xacro:macro name="realsense_d435i_rgbd_camera_gazebo" params="name" >
 
     <gazebo reference="${name}_link">
       <sensor name="${name}" type="depth">
@@ -153,7 +153,49 @@
           </ros>  
         </plugin>
       </sensor>
+
+      <!-- IMU Sensor -->
+      <sensor name="${name}_imu_sensor" type="imu">
+        <always_on>1</always_on>
+        <update_rate>200</update_rate>
+        <imu>
+          <noise>
+            <type>gaussian</type>
+            <rate>
+              <mean>0.0</mean>
+              <stddev>2e-4</stddev>
+              <bias_mean>0.0000075</bias_mean>
+              <bias_stddev>0.0000008</bias_stddev>
+            </rate>
+            <accel>
+              <mean>0.0</mean>
+              <stddev>1.7e-2</stddev>
+              <bias_mean>0.1</bias_mean>
+              <bias_stddev>0.001</bias_stddev>
+            </accel>
+          </noise>
+        </imu>
+        <plugin name="${name}_imu" filename="libgazebo_ros_imu_sensor.so">
+          <frame_name>${name}_accel_optical_frame</frame_name>
+          <ros>
+            <namespace>${namespace}</namespace>
+            <!-- publish to /imu/data -->
+            <remapping>~/out:=${name}/imu</remapping>
+            <qos>
+              <topic name="${name}/imu">
+                <publisher>
+                  <reliability>best_effort</reliability>
+                  <durability>volatile</durability>
+                  <history depth="1">keep_last</history>
+                  <liveliness>automatic</liveliness>
+                </publisher>
+              </topic>
+            </qos>
+          </ros>
+        </plugin>
+      </sensor>
     </gazebo>
+
 
   </xacro:macro>
 </robot>
