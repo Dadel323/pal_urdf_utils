@@ -16,7 +16,7 @@
  -->
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
 
-  <xacro:include filename="$(find pal_urdf_utils)/urdf/camera/realsense_d455.gazebo.xacro" />
+  <xacro:include filename="$(find pal_urdf_utils)/urdf/camera/realsense_t265.gazebo.xacro" />
 
   <!-- Macro -->
   <xacro:macro name="realsense_t265" params="parent *origin name:=camera use_nominal_extrinsics:=false">
