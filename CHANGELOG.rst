@@ -2,6 +2,14 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* update mesh
+* add realsense t265
+* add realsense cameras gazebo
+* uniform realsense cameras
+* Contributors: antoniobrandi
+
 2.2.4 (2025-07-23)
 ------------------
 * Add pi utils urdf
