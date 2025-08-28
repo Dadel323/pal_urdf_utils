@@ -2,6 +2,11 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Typo in t265 urdf
+* Contributors: antoniobrandi
+
 2.3.1 (2025-08-27)
 ------------------
 * Update realsense_t265.urdf.xacro
